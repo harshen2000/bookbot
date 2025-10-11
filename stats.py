@@ -21,3 +21,14 @@ def count_characters(input_text_string):
       results_dictionary[char.lower()] = 1
   return results_dictionary
 
+def count_characters_highest_to_lowest(input_text_string):
+  results_dictionary = {}
+  for char in input_text_string:
+    char.lower()
+    if char.lower() in results_dictionary:
+      current_count = results_dictionary[char.lower()]
+      current_count = current_count+ 1;
+      results_dictionary[char.lower()] = current_count
+    else:
+      results_dictionary[char.lower()] = 1
+  return results_dictionary.sort(reverse=True, key=sort_on)
