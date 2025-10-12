@@ -1,3 +1,5 @@
+#Notes for update. 
+
 from stats import get_num_words
 from stats import count_characters
 from stats import count_characters_highest_to_lowest
@@ -18,6 +20,7 @@ def main():
   vehicles.sort(reverse=True, key=sort_on)
   print(vehicles)
   print("TEST LINE BREAK")
+  print()
 
 def sort_on(items):
     return items["num"]
