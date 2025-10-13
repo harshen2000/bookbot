@@ -1,4 +1,4 @@
-#Notes for update. 
+#Notes for update. 13/10/25
 
 from stats import get_num_words
 from stats import count_characters
